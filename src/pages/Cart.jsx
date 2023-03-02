@@ -72,8 +72,8 @@ const buyBtn = 'self-start my-4 px-6 py-2 bg-rose-600 rounded text-white active:
 
 const cardInfo = 'flex flex-col w-full p-12'
 const mainCard= 'w-4/5 h-min flex relative overflow-hidden flex- pr-12  m-2 justify-between shadow rounded-xl'
-const image = 'w-2/5'
+const image = 'w-2/5 h-[200px]'
 const cardName = 'uppercase font-semibold '
-const cardDesc = ' text-sm self-center text-zinc-500 my-12'
+const cardDesc = ' text-sm self-center text-zinc-500 my-4'
 const cardPrice = 'text-teal-500'
 const deleteBtn = 'cursor-pointer absolute text-xs right-12 top-8'

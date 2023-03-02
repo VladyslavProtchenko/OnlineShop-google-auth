@@ -29,6 +29,7 @@ const Market = () => {
     return (
         <div className='container max-w-5xl w-full flex flex-col items-center flex-auto'>
             <MarketNav setCategory={setCategory}/>
+            <div className={mainHeader}>{category}</div>
             <section className={filters}>
                 <div>
                     <h2 className={searchHeader}>Searching</h2>
@@ -75,6 +76,7 @@ const arrUp = 'm-2 w-2 h-2 border-t border-l border-black rotate-45'
 const arrDown = 'm-2 w-2 h-2 border-t border-l border-black rotate-[225deg]'
 const ratingFilter ='self-end cursor-pointer'
 
+const mainHeader = 'w-full bg-white text-start text-6xl px-12 pt-8 pl-24'
 const login = 'bg-white text-rose-500 bg-white w-full text-start px-12 mb-4'
 const loginLink = 'text-black hover:underline'
 
